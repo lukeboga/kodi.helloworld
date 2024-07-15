@@ -18,8 +18,11 @@
                 <item>
                     <label>Item 1</label>
                 </item>
+                <item>
+                    <label>Item 2</label>
+                </item>
             </content>
-            <itemlayout>
+            <itemlayout width="500" height="30">
                 <control type="label">
                     <left>0</left>
                     <top>0</top>
@@ -30,7 +33,7 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
             </itemlayout>
-            <focusedlayout>
+            <focusedlayout width="500" height="30">
                 <control type="label">
                     <left>0</left>
                     <top>0</top>
