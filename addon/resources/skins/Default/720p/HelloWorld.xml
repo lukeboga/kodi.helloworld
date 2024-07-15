@@ -30,6 +30,16 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
             </itemlayout>
+            <focusedlayout>
+                <control type="label">
+                    <left>0</left>
+                    <top>0</top>
+                    <width>580</width>
+                    <height>50</height>
+                    <visible>true</visible>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </focusedlayout> 
         </control>
 
     </controls>
